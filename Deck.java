@@ -6,7 +6,7 @@ public class Deck {
 
 	private ArrayList<Card> cards;
 	private ArrayList<Card> usedCard;
-	public int nUsed = 0;
+	public int nUsed = -1;
 
 	public Deck(int nDeck) {
 		cards = new ArrayList<Card>();
